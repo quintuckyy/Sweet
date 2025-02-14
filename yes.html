@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="./yes_style.css">
+        <title>Balentong</title>
+    </head> 
+    <body>
+        <div class="container" onclick="openEnvelope()">
+            <div class="envelope"></div>
+            <div class="image-container">
+                <img src="../Valentine/letter.png" alt="Opened Letter">
+            </div>
+        </div>
+
+        <div class="gif_container">
+            <img src="https://i.pinimg.com/originals/42/9a/89/429a890a39e70d522d52c7e52bce8535.gif" alt="Cute animated illustration">
+        </div>
+
+        <script>
+            function openEnvelope() {
+                document.querySelector('.container').classList.toggle('opened');
+            }
+        </script>
+    </body>
+</html>
